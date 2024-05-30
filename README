@@ -1,0 +1,18 @@
+#REST API USING LARAVEL 11 WITH JWT
+
+- using laravel 11
+- using xampp
+- using visual studio code ad text editor
+- composer
+
+#how to run the project
+- should install xampp new/new php min. 8.2
+- run on command line php artisan serve
+- making database first
+- run on command line php migrate
+- instalation jwt -> run on command line
+    - composer require tymon/jwt-auth:2.1.1
+- configuration file -> run on command line
+    - php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider
+- making jwt secret key - run on command line
+    - php artisan jwt:secret
